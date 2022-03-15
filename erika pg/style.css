@@ -1,0 +1,84 @@
+.main-container{
+    background-color: gray;
+    min-height: 100vh;
+    width: 90%;
+    margin-inline:auto;
+    padding: 10px;
+    border-radius: 5px;    
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(103, 230, 103);
+    height: 5vh;
+    padding: 25px;
+}  
+.left-nav{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 200;
+}
+.right-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+    font-size: 25px;
+    font-weight: 200 ;
+}
+    
+.left-nav >div, .right-nav > div{
+    margin-inline: 10px;
+
+}
+ 
+.container-body{
+   display: flex;
+    padding: 5px; 
+    justify-content: space-between;
+    background-color: rgb(103, 230, 103);
+    height: 28vh;
+    padding: 25px;
+    font-size: 30px;
+}
+.character-color{
+    color: rgb(153, 8, 8);
+    font-weight: bolder;
+    
+}
+.photo{
+    display: flex;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px; 
+}
+
+.container-1{
+    background-color: rgb(232, 243, 232);
+    height: 70vh;
+    padding-top: 5px;
+}
+.child-c-1{
+    text-align: center;
+    line-height: 12px;
+}
+.child-c-2{
+    padding: 120px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 900;
+    
+
+}
+.child-c-3{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    font-weight: 1000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
